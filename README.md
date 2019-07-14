@@ -1,12 +1,13 @@
 # SampleNgApp
 
-This project is created to test all the bulding block of Angular
+This project is created to test all the bulding blocks of Angular
 
-##Item Implemented
-Routing 
+# Items Implemented
+Components created
+Routing Implemented
 
-##To DO
-Cretae a component
+# To DO
+
 Create a directive
 Create a pipe
 Create a service
