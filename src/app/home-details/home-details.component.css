@@ -3,3 +3,11 @@
     width:100%;
     margin-top:30px;
 }
+
+a {
+    cursor: pointer;
+}
+
+li{
+    color:blue;
+}
