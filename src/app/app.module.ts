@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CommentComponent } from './comment/comment.component';
+import { CommentTileComponent } from './comment-tile/comment-tile.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CommentComponent,
+    CommentTileComponent
   ],
   imports: [
     BrowserModule,
