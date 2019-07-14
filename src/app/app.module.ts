@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommentComponent } from './comment/comment.component';
 import { CommentTileComponent } from './comment-tile/comment-tile.component';
+import { HomeDetailsComponent } from './home-details/home-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CommentComponent,
-    CommentTileComponent
+    CommentTileComponent,
+    HomeDetailsComponent
   ],
   imports: [
     BrowserModule,

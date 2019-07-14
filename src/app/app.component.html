@@ -1,17 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>  
+<div class="container">
+  <div class="row col-md-12">
+      <div style="width:100%;background-color: black;color:red;text-align:center;margin-bottom:25px;">
+          <h1>
+              {{ title }}
+            </h1>  
+      </div> 
+  </div>
+  <ul class="nav nav-pills">
+      <li class="nav-item"><a class="nav-link" routerLink="homedetails" routerLinkActive="active">Home</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="/comment" routerLinkActive="active">Customer Comments</a></li>
+    </ul>   
 </div>
-<h2>Here are the components that are created: </h2>
-<ul>
-  <li>
-    <h2><a routerLink="/commenttile" routerLinkActive="active">Comment Tile Component</a></h2>
-  </li> 
-  <li>
-    <h2><a routerLink="/comment" routerLinkActive="active">Comment Component</a></h2>
-  </li> 
-</ul>
 
 <router-outlet></router-outlet>
